@@ -1,4 +1,4 @@
-# rainbow-ui
+# cjovo-ui
 
 ## Project setup
 ```
