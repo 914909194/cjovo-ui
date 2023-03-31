@@ -1,6 +1,8 @@
-import component from './index.vue';
-export default {
-    install : (Vue) => {
-		Vue.component(component.name, component);
-	}
+import TButton from './src'
+
+/* istanbul ignore next */
+TButton.install = function (Vue) {
+  Vue.component(TButton.name, TButton)
 }
+
+export default TButton
